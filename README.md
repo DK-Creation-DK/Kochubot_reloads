@@ -15,7 +15,7 @@ Alternatively, [find me on telegram](https://t.me/DK369DK)! (Keep all support qu
 
 To deploy me on heroku, use below button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Viruzhex/Viruzhex-new)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DK-Creation-DK/Kochubot_reloads)
 
 There is also a [youtube channel](https://youtube.com/channel/UC9CADKE_PnqPgAxc1yJ4R_g) if you want any help on creating heroku clone.
 
