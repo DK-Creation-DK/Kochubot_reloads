@@ -19,9 +19,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+ഹായ് {},എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
 നിങ്ങൾക്ക് മൂവീസ് ലഭിക്കാനായി താഴെ കൊടുത്തിരിക്കുന്ന ചാനലിലും ഗ്രൂപ്പിലും ജോയിൻ ചെയ്യുക.
-Contribute to [This person](https://t.me/cybersecurityhackerjinn). 
+Contribute to [This person](https://t.me/DK369DK). 
 Contribute and donate vps to [This person](https://t.me/Issacnewton4). 
 
 
@@ -48,7 +48,8 @@ the things I can help you with.
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
 {}
-@Viruzhex
+Join @Viruzhex
+
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
@@ -153,15 +154,14 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="support Devoleper", url="https//t.me/cybersecurityhackerjinn")],
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="support Devoleper", url="https//t.me/DK369DK)],
                      [InlineKeyboardButton(text="Movie Group", url="https://t.me/CINEMAS_LOKAM8"), InlineKeyboardButton(text="Movie Channel", url="https://t.me/CL_All")],
                      [InlineKeyboardButton(text="Movie Channel", url="https//t.me/CL_Links3"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
-
-# for test purposes
+DK369DK # for test purposes
 def error_callback(bot, update, error):
     try:
         raise error
